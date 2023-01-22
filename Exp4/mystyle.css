@@ -1,0 +1,105 @@
+ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 23%; 
+    text-align: center;
+}
+li a:hover {
+    background-color: #111;
+}
+body{
+    background: url('backgroundimage.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    margin: 0;
+}
+.login-container {
+    left: 25%;
+    top: 25%;
+    width: 20%;
+    height: 45%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-sizing: border-box;
+    float: center;
+    position: absolute;
+    box-shadow: 20px 20px 50px grey;
+}
+.login-container button{
+    width: 100%;
+    background-color: #3ed2da;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}  
+div {
+    border-radius: 5px;
+    background-color:whitesmoke;
+    padding: 20px;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.sign-container {
+    left: 50%;
+    top: 25%;
+    width: 21%;
+    height: 55%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: 1.5px solid #ccc;
+    border-radius: 25px;
+    box-sizing: border-box;
+    float: center;
+    position: absolute;
+    box-shadow: 20px 20px 50px grey;
+}
+.sign-container button{
+    width: 100%;
+    background-color: #3bd2da;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}    
